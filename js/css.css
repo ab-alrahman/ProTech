@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    justify-content:center ;
+    align-items: center;
+    display:flex;
+}
+.main{
+    background: #000;
+    padding: 20px;
+}
+.main button{
+    padding:10px;
+}
+#a,#b,#c,#restart{
+    display: none;
+}
+#answar{
+    width: 100%;
+    height:30px;
+    background-color: aliceblue;
+    display:none;
+}
